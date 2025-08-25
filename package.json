@@ -1,25 +1,61 @@
 {
-  "name": "talentscout-hiring-assistant",
+  "name": "talentscout-ai-hiring-assistant",
   "version": "1.0.0",
+  "description": "AI-powered hiring assistant for technical candidate screening",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out dist",
+    "export": "next export"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.1.1",
-    "groq-sdk": "^0.7.0",
-    "next": "14.0.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "groq-sdk": "^0.5.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.14"
-  }
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "ai",
+    "hiring",
+    "recruitment",
+    "chatbot",
+    "next.js",
+    "react",
+    "tailwindcss",
+    "groq",
+    "talent-scout"
+  ],
+  "author": {
+    "name": "Khushi Malik",
+    "email": "khushimalik511263@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Khushimalik3122/talentscout-ai-hiring-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khushimalik3122/talentscout-ai-hiring-assistant/issues"
+  },
+  "homepage": "https://github.com/Khushimalik3122/talentscout-ai-hiring-assistant#readme"
 }
