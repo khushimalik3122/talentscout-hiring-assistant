@@ -1,8 +1,35 @@
-# TalentScout AI Hiring Assistant 🤖
+# TalentScout Hiring Assistant
+
+An intelligent AI-powered hiring assistant built for Vercel deployment, featuring real-time conversation, candidate screening, and technical assessment capabilities.
+
+## Live Demo
+[https://talentscout-hiring-assistant.vercel.app](https://your-deployment-url.vercel.app)
+
+##  Technology Stack
+- **Frontend**: Next.js 14, React 18, Tailwind CSS
+- **Backend**: Python serverless functions (Vercel)
+- **AI**: OpenAI GPT-3.5/4
+- **Deployment**: Vercel
+
+## Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/talentscout-hiring-assistant)
+
+## Local Development
+
+1. **Clone & Install**:
+   ```bash
+   git clone https://github.com/khushimalik3122/talentscout-hiring-assistant.git
+   cd talentscout-hiring-assistant
+   npm install
+
+
+
+# TalentScout AI Hiring Assistant 
 
 A sophisticated AI-powered chatbot designed to streamline the initial candidate screening process for technology positions. Built with Next.js and powered by Groq's LLaMA model.
 
-## 🌟 Features
+##  Features
 
 ### Core Functionality
 - **Intelligent Greeting**: Welcomes candidates and explains the screening process
@@ -28,7 +55,7 @@ A sophisticated AI-powered chatbot designed to streamline the initial candidate 
 - **Deployment**: Vercel-ready
 - **Styling**: Tailwind CSS (utility classes)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -74,7 +101,7 @@ git push origin main
 - Add environment variable: `GROQ_API_KEY`
 - Deploy!
 
-## 🎯 Usage Guide
+##  Usage Guide
 
 ### For Candidates
 1. **Start**: Visit the application and receive an AI greeting
@@ -94,18 +121,26 @@ AI: "Great! Now, how many years of experience do you have?"
 AI: "I see you mentioned Python and React. Here are some technical questions..."
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Project Structure
 ```
 talentscout-hiring-assistant/
 ├── pages/
 │   ├── api/
-│   │   └── chat.js          # Groq API integration
-│   └── index.js             # Main chat interface
-├── package.json
+│   │   └── chat.js
+│   ├── _app.js
+│   └── index.js
+├── styles/
+│   └── globals.css
+├── .env.local
+├── .gitignore
 ├── next.config.js
-└── README.md
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vercel.json
 ```
 
 ### Key Components
@@ -122,7 +157,7 @@ talentscout-hiring-assistant/
 - Responsive design
 - Loading states and error handling
 
-## 🎨 Design Decisions
+##  Design Decisions
 
 ### Prompt Engineering
 The system prompt is carefully crafted to:
@@ -162,21 +197,21 @@ The system prompt is carefully crafted to:
 **Problem**: Graceful handling of API failures and unexpected inputs
 **Solution**: Comprehensive try-catch blocks with user-friendly error messages
 
-## 🛡️ Data Privacy & Security
+##  Data Privacy & Security
 
 - **No Data Persistence**: Information is not stored beyond the session
 - **Environment Variables**: Secure API key management
 - **Client-side Processing**: Minimal server-side data handling
 - **HTTPS Deployment**: Secure communication through Vercel
 
-## 🚀 Performance Features
+##  Performance Features
 
 - **Efficient API Calls**: Optimized request/response handling
 - **Real-time Updates**: Immediate message display
 - **Responsive Design**: Fast loading on all devices
 - **Error Recovery**: Automatic retry mechanisms
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 - **Sentiment Analysis**: Gauge candidate emotions during conversation
@@ -190,7 +225,7 @@ The system prompt is carefully crafted to:
 - **Custom Branding**: White-label solutions
 - **Advanced Scoring**: AI-powered candidate ranking
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -198,11 +233,11 @@ The system prompt is carefully crafted to:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## Support
 
 For support or questions:
 - Create an issue in the repository
@@ -213,7 +248,7 @@ For support or questions:
 
 **Built with ❤️ using Next.js, React, and Groq AI**
 
-## 🎯 Deployment Checklist
+## Deployment Checklist
 
 - [ ] Environment variables configured
 - [ ] GitHub repository connected
