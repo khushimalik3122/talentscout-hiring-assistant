@@ -3,7 +3,7 @@
 An intelligent AI-powered hiring assistant built for Vercel deployment, featuring real-time conversation, candidate screening, and technical assessment capabilities.
 
 ## Live Demo
-[https://talentscout-hiring-assistant.vercel.app](https://your-deployment-url.vercel.app)
+[https://talentscout-hiring-assistant.vercel.app](https://talentscout-hiring-assistant-bmcd.vercel.app/)
 
 ##  Technology Stack
 - **Frontend**: Next.js 14, React 18, Tailwind CSS
@@ -11,9 +11,7 @@ An intelligent AI-powered hiring assistant built for Vercel deployment, featurin
 - **AI**: OpenAI GPT-3.5/4
 - **Deployment**: Vercel
 
-## Quick Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/talentscout-hiring-assistant)
 
 ## Local Development
 
@@ -65,7 +63,7 @@ A sophisticated AI-powered chatbot designed to streamline the initial candidate 
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/khushimalik3122/talentscout-hiring-assistant
 cd talentscout-hiring-assistant
 ```
 
